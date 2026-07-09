@@ -6,7 +6,7 @@ Embedded system for Soil Moisture and Nutrient Regulation System for Peri-Urban 
 ## Problem & Solution
 
 **Problem:**
-Peri-urban smallholder tomato farmers often struggle with inconsistent and inefficient irrigation and nutrient application. Manual monitoring of soil moisture and nutrient levels is time-consuming, imprecise, and often leads to over-watering, under-watering, or poor nutrient dosing — all of which reduce crop yield and waste resources.
+Peri-urban smallholder tomato farmers often struggle with inconsistent and inefficient irrigation and nutrient application. Manual monitoring of soil moisture and nutrient levels is time-consuming, imprecise, and often leads to over-watering, under-watering, or poor nutrient dosing  all of which reduce crop yield and waste resources.
 
 **Solution:**
 SmartSoil is an ESP32-based IoT system that automatically monitors soil moisture in real time and controls a water pump and nutrient pump accordingly. Readings are displayed locally on a TFT screen and pushed to Firebase, allowing farmers to view soil status remotely and manually override irrigation or nutrient dosing through a companion mobile app (built with MIT App Inventor). This reduces guesswork, saves water, and improves nutrient delivery efficiency for smallholder farms.
