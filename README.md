@@ -1,7 +1,7 @@
 # SmartSoil: IoT-Based Soil Moisture and Nutrient Monitoring System
 
 ## Project Title
-SmartSoil – IoT Soil Moisture and Nutrient Regulation System for Peri-Urban Smallholder Tomato Farmers
+Embedded system for Soil Moisture and Nutrient Regulation System for Peri-Urban Smallholder Tomato Farmers
 
 ## Problem & Solution
 
