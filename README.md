@@ -65,8 +65,10 @@ SmartSoil is an ESP32-based IoT system that automatically monitors soil moisture
 
 ### 6. Mobile App
 1. Open the SmartSoil MIT App Inventor app on an Android device.
-2. Ensure it is linked to the same Firebase project/database.
-3. Use the app to send `"1"` to trigger irrigation or `"3"` to trigger nutrient dosing (these numeric flags are used instead of text strings for compatibility with App Inventor).
+2. Ensure that the soil sensors "moisture sensor" and "EC Sensor" are connected into the soil test samples 
+3.  Ensure it is linked to the same Firebase project/database.
+4. Use the app and tap `"water pump"` to trigger irrigation or `"nutrient pump"` to trigger nutrient dosing (these numeric flags are used instead of text strings for compatibility with App Inventor).
+5. Water irrigation is automated where by water is dosed three times when the soil's moisture content is below 40% of the VWC and then stops dosing if the soil moisture content increases till around 60% VWC
 
 ## Repository Structure
 ```
@@ -85,4 +87,4 @@ SmartSoil-IoT/
 - N, P, K values displayed are currently simulated for demonstration purposes; replace with actual sensor readings if/when an NPK sensor is integrated.
 
 ## Author
-Adino George Emun — Final Year Diploma in Electrical and Electronics Engineering, Uganda Institute of Information and Communications Technology (UICT)
+Group21 — Final Year Diploma in Electrical and Electronics Engineering, Uganda Institute of Information and Communications Technology (UICT)
