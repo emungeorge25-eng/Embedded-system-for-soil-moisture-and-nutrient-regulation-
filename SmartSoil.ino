@@ -77,7 +77,7 @@ void loop() {
       // Convert to percentage
       int moisturePercent = map(moisture, soilWet, soilDry, 100, 0);
     
-      // Constrain to 0–100%
+      // Constrain to 0â€“100%
       moisturePercent = constrain(moisturePercent, 0, 100);
     
       Serial.print("\nAnalog Output: ");
